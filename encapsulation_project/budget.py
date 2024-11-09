@@ -30,6 +30,6 @@ class BudgetCategory:
             print("Invalid expense amount: Please enter a positive number.")
 
     def display_details(self):  
-        print(f"Category Name: {self.__category_name}")  
-        print(f"Allocated Budget: ${self.__allocated_budget:.2f}")  
+        print(f"Category Name: {self.__category_name}")
+        print(f"Allocated Budget: ${self.__allocated_budget:.2f}")
         print(f"Remaining Budget: ${self.__remaining_budget:.2f}")
